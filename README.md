@@ -71,12 +71,6 @@ testowym uzyskała:
 | Recall | 0.9861 |
 | F1-Score | 0.9861 |
 
-Macierz pomyłek:
-
-```text
-[[41  1]
- [ 1 71]]
-```
 
 ### 4. Letter Recognition - klasyfikacja wieloklasowa
 
@@ -128,9 +122,3 @@ Czas zapisany w notebooku:
 - Pełny test homomorficzny dla zbioru Letter Recognition byłby kosztowny, dlatego
   notebook używa reprezentatywnego podzbioru próbek.
 
-## Cel edukacyjny
-
-Projekt pokazuje praktyczny schemat prywatnej inferencji: użytkownik może
-zaszyfrować swoje cechy wejściowe, a serwer może policzyć wynik klasyfikatora bez
-poznawania wartości tych cech. Dopiero właściciel klucza odszyfrowuje wynik i
-interpretuje predykcję.
