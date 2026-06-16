@@ -121,4 +121,3 @@ Czas zapisany w notebooku:
 - Wybór klasy przez `argmax` wykonywany jest po odszyfrowaniu score'ów.
 - Pełny test homomorficzny dla zbioru Letter Recognition byłby kosztowny, dlatego
   notebook używa reprezentatywnego podzbioru próbek.
-
