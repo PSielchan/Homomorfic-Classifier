@@ -42,12 +42,12 @@ Schemat szyfrowania:
 
 CKKS jest schematem przybliżonym, dlatego wyniki po odszyfrowaniu mogą minimalnie różnić się od wyników liczonych bez szyfrowania.
 
-## 3. Eksperyment 1: klasyfikacja binarna Iris
+## 3. Eksperyment I: klasyfikacja binarna Iris
 
 Pierwszy eksperyment dotyczył binarnej klasyfikacji zbioru Iris. Użyto dwóch klas oraz czterech cech. Model regresji logistycznej został wytrenowany na danych jawnych, a następnie pojedyncza próbka testowa została zaszyfrowana i sklasyfikowana homomorficznie.
 
 
-## 4. Eksperyment 2: klasyfikacja wieloklasowa Iris
+## 4. Eksperyment II: klasyfikacja wieloklasowa Iris
 
 Drugi eksperyment rozszerzył podejście na pełny zbiór Iris z trzema klasami. Dla każdej klasy obliczany był osobny score:
 
@@ -55,7 +55,7 @@ Drugi eksperyment rozszerzył podejście na pełny zbiór Iris z trzema klasami.
 score_i = w_i * x + b_i
 ```
 
-Po odszyfrowaniu wyników wybierano klasę z największą wartością score. Dla przykładowej próbki notebook zwrócił:
+Po odszyfrowaniu wyników wybierano klasę z największą wartością score. Dla przykładowej otrzymano wynik:
 
 | Klasa | Score po odszyfrowaniu |
 | --- | ---: |
@@ -80,7 +80,7 @@ Metryki klasyfikacji homomorficznej dla całego testu Iris:
 
 Powodem tego rezultatu było najpewniej to, że zbiór nie jest zbyt skomplikowany do klasyfikacji, bo klasy są łatwo separowalne.
 
-## 5. Eksperyment 3: klasyfikacja MNIST
+## 5. Eksperyment III: klasyfikacja MNIST
 
 Charakterystyka danych:
 
