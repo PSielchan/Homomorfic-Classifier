@@ -4,7 +4,7 @@
 Jakub Karczewski, Piotr Sielchanowicz, Michał Kowalczyk
 ## 1. Cel projektu
 
-Celem projektu było sprawdzenie, czy można wykonać etap predykcji modelu klasyfikacyjnego na danych zaszyfrowanych homomoeficznie przy pomocy schematu szyfrowania CKKS.
+Celem projektu było sprawdzenie, czy można wykonać etap predykcji modelu klasyfikacyjnego na danych zaszyfrowanych homomorficzne przy pomocy schematu szyfrowania CKKS.
 
 Główna idea działania:
 
