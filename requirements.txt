@@ -1,0 +1,6 @@
+tenseal
+numpy
+scikit-learn
+pandas
+seaborn
+jupyter
